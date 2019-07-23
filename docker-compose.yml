@@ -1,0 +1,9 @@
+version: '2.2'
+services:
+  app:
+    image: es_downloader:${BUILD_TAG}
+    container_name: es_downloader
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: "pytest"

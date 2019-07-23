@@ -1,0 +1,5 @@
+pytest
+pytest-xdist
+doubles
+bumpversion
+-r requirements.txt
